@@ -1,0 +1,4 @@
+$(function(){
+	loadPage('standings');
+	getStandings();
+});

@@ -1,0 +1,77 @@
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.brand-logo img {
+	top: 10px;
+	height: 50px;
+	width: auto;
+	position: relative;
+}
+
+.top-sidenav .user-view {
+	height: 260px;
+	position: relative;
+}
+
+.user-view .title {
+	position: absolute;
+	bottom: 0px;
+	color: white;
+}
+
+@media only screen and (min-width: 993px) {
+	nav .brand-logo {
+		padding-left: 20px;
+	}
+}
+
+.p-0 {
+	padding: 0 !important;
+}
+
+.mt-1,
+.my-1 {
+	margin-top: .5rem;
+}
+
+.mb-1,
+.my-1 {
+	margin-bottom: .5rem;
+}
+
+
+@media screen and (min-width: 772px) {
+	#content {
+		padding: 20px 70px;
+		box-sizing: border-box;
+	}
+}
+
+.mw-30px {
+	max-width: 30px !important;
+}
+
+.mw-100px {
+	max-width: 100px !important;
+}
+
+.hamburger-slice::after {
+	background: white;
+}
+
+@media only screen and (min-width: 601px) {
+	.overflow-on-med-and-up {
+		max-height: 580px;
+		overflow-y: auto;
+	}
+}
+
+.back-btn {
+	padding: 7px 18px;
+	display: inline-block;
+}
+
+.fixed-action-btn {
+    bottom: 55px !important;
+}

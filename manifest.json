@@ -1,0 +1,24 @@
+{
+    "name": "Bundesliga",
+    "short_name": "Bundesliga",
+    "description": "Klasemen Bundesliga",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#D20515",
+    "theme_color": "#D20515",
+    "icons": [
+        {
+            "src": "maskable-icon-192px.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "maskable-icon-512px.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "gcm_sender_id": "899910078692"
+}
